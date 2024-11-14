@@ -36,7 +36,7 @@ export function Header() {
                             <span>ENTRAR</span>
                         </Link>
 
-                        <Link href="#" className={styles.btnLogin}>
+                        <Link href="https://wa.me/5511972150763?text=Ol%C3%A1%2C%20gostaria%20de%20assinar%20a%20plataforma%20da%20OpenBI." target='blanck'  className={styles.btnLogin}>
                             <span>ASSINAR AGORA</span>
                             <Image src={LoginImg} alt=""/>
                         </Link>

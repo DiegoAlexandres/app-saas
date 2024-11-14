@@ -19,18 +19,18 @@ export function Hero() {
         <Image src={boasVindas} alt='' className={styles.boasVindas}/>
         <h1>Insights que impulsionam o crescimento do seu negócio com o <span>Power BI.</span></h1>
 
-        <p className={styles.text}><span>Tenha acesso ao <strong>Dashboard Financeiro Estratégico</strong> através da plataforma de análise e ciência de dados da OpenBI.</span>
-        Dados organizados, integrados e atualizados de formaautomática com o seu sistema, sem necessidade de preenchimento de planilhas manuais.
+        <p className={styles.text}><span>Tenha acesso ao <strong>Dashboard Financeiro Estratégico</strong> através da plataforma de análise e ciência de dados da OpenBI. </span>
+        Dados organizados, integrados e atualizados de forma automática com o seu sistema, sem necessidade de preenchimento de planilhas manuais.
         </p>
 
         <p className={styles.description}>Se sua empresa utiliza algum dos sistemas ERPs abaixo, a plataforma é para você!</p>
 
         <Image className={styles.erp} src={ERPS} width={578} height={68} alt='ERPs de Gestão Empresrial'/>
         <div className={styles.btnHero}>
-          <Link href="#" className={styles.btnAssinatura}>
+          <Link href="https://wa.me/5511972150763?text=Ol%C3%A1%2C%20gostaria%20de%20assinar%20a%20plataforma%20da%20OpenBI." target='blanck' className={styles.btnAssinatura}>
             <span>ASSINAR PLATAFORMA</span>
           </Link>
-          <Link href="#" className={styles.btnEspecialista}>
+          <Link href="https://wa.me/message/NLGCJROSG3BWM1" target='blanck' className={styles.btnEspecialista}>
             <span>Conversar com um Especialista</span>
           </Link>
         </div>
